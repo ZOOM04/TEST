@@ -24,6 +24,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
-//тут был Мухаммад
+
+        private void BtnDob_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Пользователь успешно добавлен!");
+        }
     }
 }

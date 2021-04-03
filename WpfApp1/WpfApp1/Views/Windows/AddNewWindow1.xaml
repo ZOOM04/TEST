@@ -6,98 +6,67 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="AddNewWindow1" Height="450" Width="800">
+
     <Grid>
 
-        
-
-
-
-            <StackPanel HorizontalAlignment="Left"
+        <StackPanel HorizontalAlignment="Left"
                     VerticalAlignment="Top"
-                    Margin="15,15,0,0"
-                    Orientation="Horizontal">
-                <TextBlock Text="Ф.И.О:"
-                       Width="50"/>
-                <TextBox Width="200"/>
-            </StackPanel>
-
-            <StackPanel HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="300,15,0,0"
-                    Orientation="Vertical"
-                    Height="42">
-                <TextBlock Text="Дата рождения:"
-                       Width="150"/>
-                <DatePicker Height="33"
-                        Width="150"/>
-            </StackPanel>
-
-            <StackPanel HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="15,45,0,0"
-                    Orientation="Horizontal">
-                <TextBlock Text="Телефон:"
-                       Width="50"/>
-                <TextBox Width="200"/>
-            </StackPanel>
-
-            <StackPanel HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Orientation="Horizontal"
-                    Margin="15,75,0,0">
-                <TextBlock Text="Серия паспорта:"
-                       Width="95"/>
-                <TextBox Width="120"/>
-                <TextBlock Text="Номер паспорта:"
-                       Width="100"/>
-                <TextBox Width="120"/>
-            </StackPanel>
-
-            <StackPanel Orientation="Horizontal"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="15,105,0,0">
-                <TextBlock Text="e-mail:"
-                       Width="50"/>
-                <TextBox Width="200"/>
-            </StackPanel>
-
-            <StackPanel Orientation="Horizontal"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="15,135,0,0">
-                
-                <TextBlock Text="Номер страхового полиса:"/>
-                <TextBox Width="200"/>
-                
-            </StackPanel>
-
-            <StackPanel Orientation="Horizontal"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="15,165,0,0">
-                <TextBlock Text="Тип страхового полиса:"/>
-                <ComboBox Width="217"/>
-            </StackPanel>
-
-        <StackPanel Orientation="Horizontal"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="15,195,0,0">
+                    Margin="15,25,0,0"
+                    Width="250">
             
-            <TextBlock Text="Название страховых компаний:"/>
-            <ComboBox Width="170"/>
+            <StackPanel>
+            <TextBlock Text="Ф.И.О:"/>
+                <TextBox/>
+            </StackPanel>
 
+            <StackPanel>
+                <TextBlock Text="Дата рождения:"/>
+                <DatePicker />
+            </StackPanel>
+
+            <StackPanel >
+                <TextBlock Text="Серия паспорта:"/>
+                <TextBox/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="Номер паспорта:"/>
+                <TextBox/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="Телефон:"/>
+                <TextBox/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="E-mail:"/>
+                <TextBox/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="Номер страхового полиса:"/>
+                <TextBox/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="Тип страхового полиса:"/>
+                <ComboBox/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="Название страховой компании:"/>
+                <ComboBox />
+            </StackPanel>
         </StackPanel>
 
-        <Button VerticalAlignment="Top"
+        <Button Margin="0,340,65,0"
                 HorizontalAlignment="Right"
-                Margin="0,350,40,0"
-                Width="80"
+                VerticalAlignment="Top"
+                Width="150"
                 Height="35"
-                Content="Добавить"/>
-
-
+                Content="Добавить"
+                Click="BtnDob_Click"/>
 
     </Grid>
 </Window>

@@ -20,7 +20,6 @@
                 <TextBlock Text="Логин:"
                            Width="50"/>
                 <TextBox Width="150"
-                         Text="Ppss"
                          Name="TBLogin"/>
             </StackPanel>
 
@@ -28,7 +27,6 @@
                 <TextBlock Text="Пароль:"
                            Width="50"/>
                 <PasswordBox Width="150"
-                             Password="121212"
                              Name="PBPassword"/>
                 <TextBox Visibility="Collapsed"
                          Name="Parol"
