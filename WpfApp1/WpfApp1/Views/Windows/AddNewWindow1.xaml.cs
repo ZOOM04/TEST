@@ -27,7 +27,20 @@ namespace WpfApp1
 
         private void BtnDob_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Пользователь успешно добавлен!");
+            
+            if (TBox.Text != null && DPicker.Text != null && TBox2.Text != null && TBox3.Text != null && TBox4.Text != null && TBox5.Text != null && TBox6.Text != null && CBox.Text != null && CBox2.Text != null)
+            {
+                MessageBox.Show("Данные были успешно добавлены!");
+            }
+            else
+            {
+                throw new Exception("Заполните все поля!");
+            }
+        }
+
+        private void TBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

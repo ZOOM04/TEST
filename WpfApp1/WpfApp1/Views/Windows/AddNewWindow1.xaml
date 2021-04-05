@@ -16,47 +16,47 @@
             
             <StackPanel>
             <TextBlock Text="Ф.И.О:"/>
-                <TextBox/>
+                <TextBox Name="TBox" TextChanged="TBox_TextChanged"/>
             </StackPanel>
 
             <StackPanel>
                 <TextBlock Text="Дата рождения:"/>
-                <DatePicker />
+                <DatePicker Name="DPicker"/>
             </StackPanel>
 
             <StackPanel >
                 <TextBlock Text="Серия паспорта:"/>
-                <TextBox/>
+                <TextBox Name="TBox2"/>
             </StackPanel>
 
             <StackPanel>
                 <TextBlock Text="Номер паспорта:"/>
-                <TextBox/>
+                <TextBox Name="TBox3"/>
             </StackPanel>
 
             <StackPanel>
                 <TextBlock Text="Телефон:"/>
-                <TextBox/>
+                <TextBox Name="TBox4"/>
             </StackPanel>
 
             <StackPanel>
                 <TextBlock Text="E-mail:"/>
-                <TextBox/>
+                <TextBox Name="TBox5"/>
             </StackPanel>
 
             <StackPanel>
                 <TextBlock Text="Номер страхового полиса:"/>
-                <TextBox/>
+                <TextBox Name="TBox6"/>
             </StackPanel>
 
             <StackPanel>
                 <TextBlock Text="Тип страхового полиса:"/>
-                <ComboBox/>
+                <ComboBox Name="CBox"/>
             </StackPanel>
 
             <StackPanel>
                 <TextBlock Text="Название страховой компании:"/>
-                <ComboBox />
+                <ComboBox Name="CBox2" />
             </StackPanel>
         </StackPanel>
 
